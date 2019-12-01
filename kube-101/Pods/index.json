@@ -1,6 +1,6 @@
 {
   "title": "Introduction to Pods",
-  "description": "This scenario introduses the concept of Kubernetes pods",
+  "description": "This scenario introduses the concept of Kubernetes pods and namespaces",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
