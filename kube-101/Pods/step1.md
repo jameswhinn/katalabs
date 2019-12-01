@@ -30,7 +30,7 @@ Without the pods in this namespace, our cluster would not function.
 
 ## kube-public
 
-This namespace is visible and readable globally accross the Kubernetes cluster. Within our cluster, this namespace houses the configmap which contains the [bootstrapping and certificate](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) information of the Kubernetes cluster. Configmaps are dictionaries of configuration settings consisting of key value pairs, we will discuss these in more detail in the Configmaps scenario:
+This namespace is visible and readable globally across the Kubernetes cluster. Within our cluster, this namespace houses the configmap which contains the [bootstrapping and certificate](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) information of the Kubernetes cluster. Configmaps are dictionaries of configuration settings consisting of key value pairs, we will discuss these in more detail during the Configmaps scenario:
 
 ``kubectl get pods -n kube-public``{{execute}}
 

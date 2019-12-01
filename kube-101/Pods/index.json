@@ -10,7 +10,7 @@
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Create a new namespace",
         "text": "step2.md"
       },
       {
@@ -24,6 +24,14 @@
     ],
     "intro": {
       "text": "intro.md"
+    },
+    "assets": {
+      "client": [
+        {
+          "file": "Team-B-namespace.yaml",
+          "target": "~/manifests/"
+        }
+      ]
     },
     "finish": {
       "text": "finish.md"
