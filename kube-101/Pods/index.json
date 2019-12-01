@@ -30,6 +30,10 @@
         {
           "file": "team-b-namespace.yaml",
           "target": "~/manifests/"
+        },
+        {
+          "file": "pod.yaml",
+          "target": "~/manifests/"
         }
       ]
     },
