@@ -29,7 +29,7 @@
       "host01": [
         {
           "file": "Team-B-namespace.yaml",
-          "target": "~/"
+          "target": "~/manifests/"
         }
       ]
     },
