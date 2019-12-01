@@ -26,7 +26,7 @@
       "text": "intro.md"
     },
     "assets": {
-      "client": [
+      "host01": [
         {
           "file": "Team-B-namespace.yaml",
           "target": "~/"
