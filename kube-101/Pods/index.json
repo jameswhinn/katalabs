@@ -33,6 +33,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "Minikube (Already Configured)"
+    "imageid": "minikube"
   }
 }
