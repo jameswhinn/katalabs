@@ -11,3 +11,9 @@ Alternatively, like with any Kubernetes resource, we could have specified the na
 Let's create the team-b namespace using the yaml file.
 
 ``kubectl apply -f manifests/Team-B-namespace.yaml`` {{execute}}
+
+## List Namespaces
+
+Let's check the namespaces we have now:
+
+``kubectl get namespaces``{{execute}}
