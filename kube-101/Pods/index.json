@@ -34,6 +34,10 @@
         {
           "file": "pod.yaml",
           "target": "~/manifests/"
+        },
+        {
+          "file": "pod-with-namespace.yaml",
+          "target": "~/manifests/"
         }
       ]
     },
