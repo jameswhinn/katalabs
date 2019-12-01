@@ -28,7 +28,7 @@
     "assets": {
       "client": [
         {
-          "file": "Team-B-namespace.yaml",
+          "file": "manifests/Team-B-namespace.yaml",
           "target": "~/manifests/"
         }
       ]
