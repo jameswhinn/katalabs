@@ -5,7 +5,7 @@
     {
       "course_id": "Pods",
       "title": "Introduction to Pods",
-      "description": "This scenario introduses the concept of Kubernetes pods"
+      "description": "This scenario introduses the concept of Kubernetes pods and namespaces"
     }
   ]
 }
