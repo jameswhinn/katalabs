@@ -1,5 +1,11 @@
 {
   "title": "Introduction to Kubernetes",
   "description": "This course contains several scenarios introducing participants to basic Kubernetes concepts",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "Pods",
+      "title": "Introduction to Pods",
+      "description": "This scenario introduses the concept of Kubernetes pods"
+    }
+  ]
 }
