@@ -20,6 +20,10 @@
       {
         "title": "Deploy Pod to Namespace",
         "text": "step4.md"
+      },
+      {
+        "title": "Updating Pods",
+        "text": "step5.md"
       }
     ],
     "intro": {
