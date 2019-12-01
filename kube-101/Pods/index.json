@@ -28,7 +28,7 @@
     "assets": {
       "host01": [
         {
-          "file": "Team-B-namespace.yaml",
+          "file": "team-b-namespace.yaml",
           "target": "~/manifests/"
         }
       ]
