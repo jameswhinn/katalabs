@@ -1,0 +1,26 @@
+{
+  "title": "Introduction to Deployments",
+  "description": "This scenario provides a basic introduction to the Kubernetes Deployment object",
+  "difficulty": "Beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "minikube-running"
+  }
+}

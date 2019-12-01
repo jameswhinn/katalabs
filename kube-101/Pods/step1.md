@@ -5,3 +5,9 @@
 Let's observe our custers namespaces:
 
 `kubectl get namespace`{{execute}}
+
+By default in Kubernetes 1.14 onwards, there are 4 namespaces provisioned with every new cluster. These namespaces can be seen in the output of the above command and in the diagram below :
+
+![alt text](https://raw.githubusercontent.com/jameswhinn/katalabs/master/assets/namespaces.png "Default namespaces")
+
+(**Note** In Kubernetes 1.13 the kube-node-lease namespace will exist only if the NodeLease feature gate is enabled)
