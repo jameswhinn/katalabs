@@ -4,7 +4,7 @@
   "courses": [
     {
       "course_id": "Pods",
-      "title": "Introduction to Pods",
+      "title": "Introduction to Pods, Labels and Namespaces",
       "description": "This scenario introduses the concept of Kubernetes pods, labels and namespaces"
     }
   ]
