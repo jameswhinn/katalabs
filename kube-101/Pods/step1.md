@@ -30,8 +30,16 @@ Without the pods in this namespace, our cluster would not function.
 
 ## kube-public
 
-This namespace contains a configmap which contains the [bootstrapping and certificate](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) information of the Kubernetes cluster:
+This namespace is visible and readable globally accross the Kuberneetes cluster. Within a newly created cluster, this namespace houses a configmap which contains the [bootstrapping and certificate](https://kubernetes.io/docs/reference/access-authn-authz/bootstrap-tokens/) information of the Kubernetes cluster. Configmaps are dictionaries of configuration settings consisting of key value pairs, we will discuss these in more detail in the Configmaps scenario:
 
 ``kubectl get pods -n kube-public``{{execute}}
 
+As you can see, we have no pods running here. To view the cluster-info config map:
+
+``kubectl get configmap -n kube-public cluster-info -o yaml``{{command}}
+
 ## kube-node-lease
+
+This namespace contains a lease object per node. Node leases are a way to implement node heartbeats which continously monitor the availability of nodes within our cluster.
+
+Node-leases will be covered in detail within another scenario.
