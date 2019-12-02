@@ -16,7 +16,7 @@ Now apply the changes:
 
 ``kubectl apply -f pod-update.yaml``{{execute}}
 
-##OOPS!!
+## OOPS!!
 
 That didn't work! Why?
 
@@ -29,3 +29,35 @@ The Pod "team-a-webserver" is invalid: spec: Forbidden: pod updates may not chan
 Ok, let's review the [Kubernetes API docs](https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.15/#container-v1-core) and we can find the following statement in containers ports specification:
 
 ![alt text](https://raw.githubusercontent.com/jameswhinn/katalabs/master/assets/apiRef.png "Port Ref")
+
+In Kubernetes, there are some fields which can't be updated. The Kubernetes API Reference advises us of the API restrictions and the exact object specifications which are available.
+
+In order to update those limited settings, we must delete the object and recreate it. We could bypass these situations with the "deployment" object which we will cover in other scenario.
+
+## Update, round two
+
+First let's delete the pod:
+
+``kubectl delete pod team-a-webserver -n team-a``{{execute}}
+
+Then apply the updated yaml file:
+
+``kubectl apply -f manifests/updae-pod.yaml``{{execute}}
+
+Now verify it worked:
+
+``kubectl describe pod team-a-webserver -n team-a``{{execute}}
+
+As you can see, our pod is running with the new image, port specification and labels we defined in our file.
+
+## Clean up
+
+Now let's clean up the objects we have created:
+
+**Delete Pod**
+
+``kubectl delete pod team-a-webserver -n team-a``{{execute}}
+
+**Delete Namespace**
+
+``kubectl delete namespace team-a``
