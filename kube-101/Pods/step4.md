@@ -8,7 +8,7 @@ You can see we've added an additional piece of metadata declaring the namespace 
 
 Let's apply the configuration and deploy the pod:
 
-``kubectl apply -f /manifests/pod-with-namespace.yaml``{{execute}}
+``kubectl apply -f manifests/pod-with-namespace.yaml``{{execute}}
 
 Now verify the pod was deployed to the **team-a** namespace:
 
