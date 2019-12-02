@@ -1,3 +1,7 @@
+**Start Minikube**
+
+``minikube start``{{execute}}
+
 ## Create a Deployment 
 
 In this step we will create a new deployment. We will use the official **nginx** web server image available in Docker Hub.

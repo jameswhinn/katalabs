@@ -8,6 +8,10 @@ The Helm CLI tool deploys charts to Kubernetes. A server side component can acce
 
 This tutorial covers version 2.x of Helm with the server side component called Tiller. In the upcoming version 3.x the Tiller component has been removed.
 
+Let's start minikube
+
+``minikube start``{{execute}}
+
 Interact with Helm start with a command-line tool (CLI). Helm can be downloaded from https://github.com/kubernetes/helm/releases
 
 ``curl https://raw.githubusercontent.com/helm/helm/master/scripts/get > get_helm.sh``{{execute}}

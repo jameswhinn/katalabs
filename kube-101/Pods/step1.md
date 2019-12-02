@@ -1,3 +1,6 @@
+**Start Minikube**
+``minikube start``{{execute}}
+
 **Namespaces** in Kubernetes provide us with the ability to isolate Pods into seperate workloads. This gives us many capabilities, such as being able to set up resourse constraints on workloads and establishing clear security boundaries. For example, we could leverage Namespaces to provide development environments to multiple product teams within the same physical Kubernetes cluster.
 
 ## Discover Namespaces
