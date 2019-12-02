@@ -11,6 +11,11 @@
       "course_id": "Deployments",
       "title": "Introduction to Deployments and Services",
       "description": "This scenario introduces the Kubernetes deployment and service objects"
+    },
+    {
+      "course_id": "Helm",
+      "title": "Introduction to Helm",
+      "description": "This scenario introduces Helm as the package manager for Kubernetes"
     }
   ]
 }
