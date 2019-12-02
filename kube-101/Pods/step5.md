@@ -60,4 +60,4 @@ Now let's clean up the objects we have created:
 
 **Delete Namespace**
 
-``kubectl delete namespace team-a``
+``kubectl delete namespace team-a``{{execute}}
