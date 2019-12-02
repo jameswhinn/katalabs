@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Create a Deployment",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Export Deployment",
         "text": "step2.md"
       },
       {
