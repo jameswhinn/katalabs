@@ -42,5 +42,6 @@ In a moment the app will start. Inspect its progress:
 
 ``helm list``{{execute}}
 
-``kubectl get deployments,service``{execute}
+``kubectl get deployments,service``{{execute}}
+
 
