@@ -1,0 +1,58 @@
+{
+  "title": "Introduction to Helm",
+  "description": "This scenario introduces Helm as the package manager for Kubernetes",
+  "difficulty": "Beginner",
+  "time": "20-25 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install Helm",
+        "text": "step1.md"
+      },
+      {
+        "title": "Search For Redis Chart",
+        "text": "step2.md"
+      },
+      {
+        "title": "Deploy Redis",
+        "text": "step3.md"
+      },
+      {
+        "title": "Observe Redis",
+        "text": "step4.md"
+      },
+      {
+        "title": "Remove Redis",
+        "text": "step5.md"
+      },
+      {
+        "title": "Explore Repositories",
+        "text": "step6.md"
+      },
+      {
+        "title": "Add Repositories",
+        "text": "step7.md"
+      },
+      {
+        "title": "Create a Chart",
+        "text": "step8.md"
+      },
+      {
+        "title": "Update Chart",
+        "text": "step9.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}
