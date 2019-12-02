@@ -14,7 +14,7 @@ The changes are as follows:
 
 Now apply the changes:
 
-``kubectl apply -f pod-update.yaml``{{execute}}
+``kubectl apply -f manifests/update-pod.yaml``{{execute}}
 
 ## OOPS!!
 
@@ -42,7 +42,7 @@ First let's delete the pod:
 
 Then apply the updated yaml file:
 
-``kubectl apply -f manifests/updae-pod.yaml``{{execute}}
+``kubectl apply -f manifests/update-pod.yaml``{{execute}}
 
 Now verify it worked:
 
