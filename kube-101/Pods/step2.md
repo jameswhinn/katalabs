@@ -24,7 +24,7 @@ You can see that our additional two namespaces have now been created!!
 
 To delete a namespace there are two options, as with resource creation we can use a yaml file or a specify the namespace at the commandline:
 
-``kubectl delete -f /pods-manifests/team-b-namespace.yaml``{{execute}}
+``kubectl delete -f manifests/team-b-namespace.yaml``{{execute}}
 
 or 
 
