@@ -6,8 +6,6 @@ Use the get command to find out what was deployed.
 
 The Pod will be in a pending state while the container image is downloaded and until a Persistent Volume is available. You will see a master and two slave[^1] pods. Use this clear to break out of the watch or press +.
 
-``kubectl apply -f pv.yaml``{{execute}}
-
 Redis needs permissions to write to these mount points.
 
 ``mkdir /mnt/data1 /mnt/data2 /mnt/data3 --mode=777``{{execute}}
