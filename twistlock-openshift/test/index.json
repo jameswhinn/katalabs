@@ -1,0 +1,66 @@
+{
+  "title": "Introduction to Pods, Labels and Namespaces",
+  "description": "This scenario introduses the concept of Kubernetes pods, labels and namespaces",
+  "difficulty": "Beginner",
+  "time": "20-30 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Namespaces",
+        "text": "step1.md"
+      },
+      {
+        "title": "Create a new namespace",
+        "text": "step2.md"
+      },
+      {
+        "title": "Create a Pod",
+        "text": "step3.md"
+      },
+      {
+        "title": "Deploy Pod to Namespace",
+        "text": "step4.md"
+      },
+      {
+        "title": "Updating Pods",
+        "text": "step5.md"
+      },
+      {
+        "title": "Try Yourself",
+        "text": "step6.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "team-b-namespace.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "pod.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "pod-with-namespace.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "update-pod.yaml",
+          "target": "~/manifests/"
+        }
+      ]
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "minikube"
+  }
+}
