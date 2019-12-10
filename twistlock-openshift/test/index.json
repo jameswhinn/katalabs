@@ -33,7 +33,26 @@
     "intro": {
       "text": "intro.md"
     },
-    "assets": {},
+    "assets": {
+      "host01": [
+        {
+          "file": "team-b-namespace.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "pod.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "pod-with-namespace.yaml",
+          "target": "~/manifests/"
+        },
+        {
+          "file": "update-pod.yaml",
+          "target": "~/manifests/"
+        }
+      ]
+    },
     "finish": {
       "text": "finish.md"
     }
@@ -42,6 +61,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "openshift-3-11"
+    "imageid": "minikube"
   }
 }
