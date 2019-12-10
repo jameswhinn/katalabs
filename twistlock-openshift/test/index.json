@@ -17,6 +17,6 @@
     "uilayout": "editor-terminal"
   },
   "backend": {
-    "imageid": "minikube"
+    "imageid": "openshift-3-11"
   }
 }
