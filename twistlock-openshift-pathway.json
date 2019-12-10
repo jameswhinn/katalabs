@@ -3,8 +3,8 @@
   "description": "This course contains several scenarios introducing participants to Twistlock on Openshift",
   "courses": [
     {
-      "course_id": "Twistlock Workshop",
-      "title": "Securing Openshift with Twistlock",
+      "course_id": "Openshift-Vulnerability-Scanning-with-Twistlock",
+      "title": "Openshift Vulnerability Scanning with Twistlock",
       "description": "This lab ......."
     }
   ]
