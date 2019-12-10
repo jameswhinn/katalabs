@@ -1,5 +1,11 @@
 {
   "title": "Introduction to Twistlock on Openshift",
   "description": "This course contains several scenarios introducing participants to Twistlock on Openshift",
-  "courses": []
+  "courses": [
+    {
+      "course_id": "test",
+      "title": "Introduction to Helm",
+      "description": "This scenario introduces Helm as the package manager for Kubernetes"
+    }
+  ]
 }
