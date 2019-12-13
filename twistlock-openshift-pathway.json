@@ -4,8 +4,8 @@
   "courses": [
     {
       "course_id": "Openshift-Vulnerability-Scanning-with-Twistlock",
-      "title": "Openshift Vulnerability Scanning with Twistlock",
-      "description": "This lab ......."
+      "title": "Openshift/Twistlock Workshop",
+      "description": ""
     }
   ]
 }
