@@ -1,0 +1,11 @@
+{
+  "title": "Introduction to Twistlock on Kubernetes",
+  "description": "This course contains several scenarios introducing participants to Twistlock installation and configration on k8s",
+  "courses": [
+    {
+      "course_id": "kube-twistlock",
+      "title": "Introduction to twistlock on k8s",
+      "description": ""
+    }
+  ]
+}
