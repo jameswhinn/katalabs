@@ -1,0 +1,26 @@
+{
+  "title": "Twistlock on K8s",
+  "description": "Learn to install and configure twistlock on k8s",
+  "difficulty": "Beginner",
+  "time": "1 hour",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
